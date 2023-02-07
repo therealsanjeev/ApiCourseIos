@@ -14,6 +14,7 @@
 		94EDE7E22992946100F14EAD /* ApiCoursesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EDE7E12992946100F14EAD /* ApiCoursesTests.swift */; };
 		94EDE7EC2992946200F14EAD /* ApiCoursesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EDE7EB2992946200F14EAD /* ApiCoursesUITests.swift */; };
 		94EDE7EE2992946200F14EAD /* ApiCoursesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EDE7ED2992946200F14EAD /* ApiCoursesUITestsLaunchTests.swift */; };
+		94EDE7FB2992968B00F14EAD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EDE7FA2992968B00F14EAD /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		94EDE7E72992946100F14EAD /* ApiCoursesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiCoursesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EDE7EB2992946200F14EAD /* ApiCoursesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCoursesUITests.swift; sourceTree = "<group>"; };
 		94EDE7ED2992946200F14EAD /* ApiCoursesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCoursesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94EDE7FA2992968B00F14EAD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				94EDE7D22992946000F14EAD /* ContentView.swift */,
 				94EDE7D42992946100F14EAD /* Assets.xcassets */,
 				94EDE7D62992946100F14EAD /* Preview Content */,
+				94EDE7FA2992968B00F14EAD /* ViewModel.swift */,
 			);
 			path = ApiCourses;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94EDE7D32992946000F14EAD /* ContentView.swift in Sources */,
+				94EDE7FB2992968B00F14EAD /* ViewModel.swift in Sources */,
 				94EDE7D12992946000F14EAD /* ApiCoursesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
